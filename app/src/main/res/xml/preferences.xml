@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/translation">
+        <ListPreference
+            android:key="@string/com.shohiebsense.samplechanginglanguage.strings.DEFAULT_TRANSLATION"
+            android:entries="@array/translations"
+            android:entryValues="@array/translation_value"
+            android:title="@string/choose_default_translation"
+            android:summary="@string/choose_default_translation"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

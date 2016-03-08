@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">SampleChangingLanguage</string>
+    <string name="com.shohiebsense.samplechanginglanguage.strings.DEFAULT_TRANSLATION">
+        com.shohiebsense.samplechanginglanguage.DEFAULT_TRANSLATION</string>
+    <string name="choose_default_translation">Default language</string>
+    <string name="translation">Translation</string>
+    <string name="indonesia">Bahasa</string>
+    <string name="english">English</string>
+    <string name="change_language">change language</string>
+    <string name="change_language_id">ubah bahasa</string>
+
+    <string-array name="translations">
+        <item>@string/indonesia</item>
+        <item>@string/english</item>
+    </string-array>
+
+    <string-array name="translation_value">
+        <item>in</item>
+        <item>en</item>
+    </string-array>
+</resources>
